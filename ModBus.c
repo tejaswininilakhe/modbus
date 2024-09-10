@@ -31,7 +31,7 @@ unsigned char  ucFreq[]    = {0x01,0x03,0x63,0x01,0x00,0x01,0xCB,0x8E};
 
 unsigned char ucPacketIndex;
 unsigned char ucPacket[20];
-
+/***********************************************************************************/
 bit bCommStatus;
 
 unsigned char ucKeyPress;
