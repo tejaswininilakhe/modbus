@@ -66,7 +66,7 @@ void vCheckPacket(unsigned char usRecData)
  }
 
 }
-
+/* Function to check the received Packet */
 
 /*void vCheckPacket(unsigned char usRecData)
 {
