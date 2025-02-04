@@ -56,7 +56,7 @@ void main()
   Lcd_Cmd(_LCD_CURSOR_OFF);          // Cursor off
   Lcd_Out(1,1,"  Lakshmi Solar ");                 // Write text in first row
 
- USART_SendByte('L');
+ USART_SendByte('L');           //Send single letter on USART to test
  USART_SendByte('A');
  USART_SendByte('K');
  USART_SendByte('S');
