@@ -112,7 +112,7 @@ void main()
    delay_ms(1000);
    if(ucPacket[2] != 0x83 && ucPacket[1] != 0x00)
    {
-    uiFreq = ((unsigned int)(ucPacket[4]<<8))|ucPacket[5];
+    uiFreq = ((unsigned int)(ucPacket[4]<<8))|ucPacket[5];          //
     bCommStatus = 1;
    }
    else
