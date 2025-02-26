@@ -12,7 +12,7 @@ volatile unsigned char bTxCom;
 #define DATA        0x02
 #define ETX         0x03
 
-/**************************************************************************/
+/****************************************************************************/
 
 void vCheckPacket(unsigned char usRecData)
 {
